@@ -1,11 +1,11 @@
 
-def delitelne_beze_zbytku(cislo):
-    return True
+def sudy_nebo_lichy(cislo):
+    if cislo % 2 == 0:
+        print("Číslo", cislo, "je sudé")
+    else:
+        print("Číslo", cislo, "je liché")
 
 
+sudy_nebo_lichy(2)
+sudy_nebo_lichy(2)
 
-
-
-if __name__ == "__main__":
-    sude_nebo_liche(5)
-    sude_nebo_iche(1000000)
