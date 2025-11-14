@@ -48,4 +48,4 @@ if __name__ == "__main__":
     except FileNotFoundError:
         print(f"Chyba: Soubor '{sys.argv[1]}' nebyl nalezen.")
     except Exception as e:
-        print(f"Došlo k chybeˇ: {e}")
+        print(f"Došlo k chybě: {e}")
