@@ -2,8 +2,12 @@
 import sys
 
 def spocitej_statistiku(text):
+    
+    if text == "":
+        return 0, 0, 0
+
     pocet_znaku = len(text)
-    pocet_radku = len(text.split('\n'))
+    pocet_radku = text.count("\n") + 1
     pocet_slov = len(text.split())
 
     
