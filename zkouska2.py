@@ -4,7 +4,7 @@ import sys
 def spocitej_statistiku(text):
     pocet_znaku = len(text)
     pocet_radku = len(text.split('\n'))
-    pocet_slov = len(text.split(' '))
+    pocet_slov = len(text.split())
 
     
 
