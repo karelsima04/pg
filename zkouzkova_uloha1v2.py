@@ -13,19 +13,16 @@
 
 
 def process_numbers(numbers):
-    seznam = []
+    result = []
+
     for c in numbers:
-        if not isinstance(c, (int, float)) or isinstance(c, (bool)) :
-        
-            
-            break
+        if not isinstance(c, (int, float)) or isinstance(c, bool):
+            return result
 
         if c > 5:
-            seznam.append(c * 2)
+            result.append(c * 2)
 
-
-
-    return seznam
+    return result
 
 
 # Unit testy

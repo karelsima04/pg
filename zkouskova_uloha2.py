@@ -9,10 +9,9 @@ import sys
 
 def spocitej_statistiku(text):
 
-    pocet_radku = 0
-    pocet_slov = 0
-    pocet_znaku = 0
-
+    pocet_radku =
+    pocet_slov =
+    pocet_znaku =
     # Vaše řešení zde
 
     return pocet_radku, pocet_slov, pocet_znaku
